@@ -1,0 +1,129 @@
+.copyright {
+  color: #aeaeae;
+
+  margin-right: 500px;
+  margin-left: -150px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aeaeae;
+  margin-left: 165px;
+  margin-bottom: 30px;
+}
+
+.social-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+.footer-social-btns {
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+.footer-social-btn {
+  padding: 7px 10px;
+  border-radius: 0px;
+  margin-left: -37px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-social-btn:hover {
+  background-position: 0 -100%;
+  background-color: white;
+}
+
+.footer-social-btn:hover .footer-icon {
+  color: #fff;
+}
+
+.footer-icon {
+  width: 12px;
+  height: 12px;
+  color: #aeaeae;
+}
+
+.footer-social-btn:hover .footer-icon {
+  color: #fff;
+}
+
+.footer-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -80px;
+}
+
+.footer-btn {
+  color: #aeaeae;
+  background-color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  font-size: 16px;
+  border: none;
+  font-family: inherit;
+  padding: 9px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-btn:hover {
+  font-weight: 600;
+  color: #0082cb;
+}
+
+.git {
+  background: linear-gradient(to bottom, #fafafa 50%, #171515 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.stack {
+  background: linear-gradient(to bottom, #fafafa 50%, #f47f24 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.youtube {
+  background: linear-gradient(to bottom, #fafafa 50%, #ff0000 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.twitter {
+  background: linear-gradient(to bottom, #fafafa 50%, #1da1f2 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.linkedin {
+  background: linear-gradient(to bottom, #fafafa 50%, #0077b5 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.facebook {
+  background: linear-gradient(to bottom, #fafafa 50%, #4267b2 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.naver {
+  background: linear-gradient(to bottom, #fafafa 50%, #3eaf0e 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}

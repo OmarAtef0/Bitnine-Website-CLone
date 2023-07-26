@@ -1,0 +1,138 @@
+.page-nav {
+  width: 100vw;
+  margin-top: 1px;
+  margin-bottom: 15px;
+  height: 40px;
+  margin-left: -35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.nav-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 750px;
+  gap: -30px;
+}
+
+.nav-btn {
+  color: #808080;
+  background-color: transparent;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  font-size: 16px;
+  border: none;
+  font-family: inherit;
+  padding: 9px 10px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  font-weight: 600;
+}
+
+.header-btn {
+  color: #808080;
+  background-color: transparent;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  font-size: 16px;
+  border: none;
+  font-family: inherit;
+  padding: 9px 10px;
+  cursor: pointer;
+}
+
+.social-btns {
+  margin-top: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+.social-btn {
+  margin-left: -37px;
+  border: none;
+  padding: 5px 7px;
+  height: 38px;
+  width: 35px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.social-btn:hover,
+.footer-social-btn:hover {
+  background-position: 0 -100%;
+  background-color: white;
+}
+
+.social-btn:hover .icon,
+.footer-social-btn:hover .footer-icon {
+  color: #fff;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
+  color: #808080;
+}
+
+.git {
+  background: linear-gradient(to bottom, #fafafa 50%, #171515 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.stack {
+  background: linear-gradient(to bottom, #fafafa 50%, #f47f24 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.youtube {
+  background: linear-gradient(to bottom, #fafafa 50%, #ff0000 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.twitter {
+  background: linear-gradient(to bottom, #fafafa 50%, #1da1f2 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.linkedin {
+  background: linear-gradient(to bottom, #fafafa 50%, #0077b5 50%);
+  background-size: 100% 200%;
+  border-radius: 0px !important;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.facebook {
+  background: linear-gradient(to bottom, #fafafa 50%, #4267b2 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}
+
+.naver {
+  background: linear-gradient(to bottom, #fafafa 50%, #3eaf0e 50%);
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: all 0.5s ease;
+}

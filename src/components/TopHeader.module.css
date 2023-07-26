@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  height: 120px;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* margin-bottom: 20px; */
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 0%;
+  z-index: 5;
+  top: 0px;
+  transition: top 0.3s;
+}
+
+.header-down {
+  top: 45px;
+}

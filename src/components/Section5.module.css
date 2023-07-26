@@ -1,0 +1,149 @@
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 100px;
+  width: 100vw;
+  height: 620px;
+  border-radius: 0px;
+  margin-bottom: 80px;
+}
+
+.title1 {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}
+
+.details {
+  color: #666666;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.details p {
+  margin-bottom: 20px;
+}
+
+.colgrid {
+  display: flex;
+  gap: 40px;
+  width: 70vw;
+  justify-content: center;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.third-title {
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+  color: #444444;
+  letter-spacing: 1.2px;
+}
+
+.b {
+  color: #0082cb;
+}
+
+.network {
+  width: 580px;
+  height: 510px;
+}
+
+.title3 {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 500;
+  color: #444444;
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardContainer {
+  width: 525px;
+  height: 90px;
+  perspective: 800px;
+}
+
+.cardContainer:hover > .cardRectangle {
+  cursor: pointer;
+  transform: rotateY(-180deg);
+}
+
+.cardRectangle {
+  border-radius: 10px;
+
+  width: 525px;
+  height: 88px;
+  border: #0082cb 2px solid;
+  position: relative;
+  perspective: 1000px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 500ms;
+  transform-style: preserve-3d;
+}
+
+.cardRectangle p {
+  text-align: center;
+  color: #0082cb;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px 50px;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  font-size: 18px;
+  background-color: #0082cb;
+  color: #fff;
+  transform: rotateY(-180deg);
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+  text-align: start;
+  border-radius: 5px;
+  fill: #0082cb;
+}
+
+.back ul li {
+  margin-bottom: 5px;
+}

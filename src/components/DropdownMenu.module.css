@@ -1,0 +1,34 @@
+.myselect {
+  position: fixed;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #808080;
+  background-color: #f2f2f2;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  margin-top: -198px;
+  margin-left: 120px;
+  z-index: 1000;
+}
+
+.myselect option {
+  padding: 10px;
+  width: 160px;
+  font-weight: 500;
+}
+
+.myselect:focus {
+  border-color: blue;
+  transition: all 0.5s;
+}
+
+.mySelect:not(:focus) {
+  border-color: transparent;
+  transition: all 0.5s;
+}

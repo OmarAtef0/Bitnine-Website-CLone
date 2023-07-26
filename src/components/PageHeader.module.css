@@ -1,0 +1,109 @@
+.page-header {
+  width: 1460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.logo {
+  z-index: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.logo-big {
+  width: 235px;
+  height: 62px;
+}
+
+.logo-small {
+  width: 219px;
+  height: 60px;
+}
+
+.header-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+
+  position: relative;
+}
+
+.header-btn {
+  color: #000;
+  background-color: transparent;
+  height: 80px;
+
+  font-size: 18px;
+  border: none;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: inherit;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  transition: 0.3s;
+  color: #f6ce30;
+}
+
+.cta-btn {
+  background: linear-gradient(to bottom, #022ea9 50%, #002a9c 50%);
+  background-position: 0 0;
+  background-size: 100% 200%;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 108px;
+  height: 40px;
+
+  font-size: 19px;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  padding: 6px 10px;
+  cursor: pointer;
+
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.cta-btn:hover {
+  color: #fbc430;
+  background-position: 0 -100%;
+
+  transition: all 0.5s ease;
+}
+
+.firstLayer {
+  position: relative;
+  top: 60px;
+  left: 431px;
+
+  background-color: rgba(62, 62, 62, 0.493);
+  color: #fff;
+  padding: 10px 10px;
+  font-weight: 500;
+  text-align: center;
+  width: 210px;
+}
+
+.secondLayer {
+  position: relative;
+  top: 60px;
+  left: 520px;
+
+  background-color: rgba(114, 114, 114, 0.493);
+  color: #fff;
+  padding: 10px 10px;
+  font-weight: 500;
+  text-align: center;
+  width: 210px;
+}
+
+.hide {
+  opacity: 0;
+}
